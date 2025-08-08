@@ -11,7 +11,6 @@ from langgraph.prebuilt import ToolNode
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-GEMINI_API_KEY="AIzaSyC63pAqx5CeN4L585aACT2z3w1IGhd_OCY"
 
 load_dotenv()
 
