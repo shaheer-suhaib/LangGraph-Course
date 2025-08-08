@@ -24,5 +24,5 @@ agent = graph.compile()
 
 user_input = input("Enter: ")
 while user_input != "exit":
-    agent.invoke({"messages": [HumanMessage(content=user_input)]})
+    agent.invoke({"messages": [HumanMessage(content=user_input)]})         ## why we need this HumanMessage why not passs directly
     user_input = input("Enter: ")
